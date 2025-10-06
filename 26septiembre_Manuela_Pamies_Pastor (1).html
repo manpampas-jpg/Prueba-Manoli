@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+
+
+<title> Estructura HTML con secciones</title>
+
+
+<style>
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+	body {
+	font-family: Montserrat, sans-serif;
+	line-height: 1.6;
+	text-align: center;
+
+	}
+
+	header {
+	background: #00609B;
+	color: #F6F6F6;
+	padding: 20px;
+	text-align: center;
+	}
+
+	section {
+	padding: 40px;
+	min-height: 200px;
+	}
+
+	#celebración {
+	background: #F8F7F7;
+	}
+
+	#Porquéesimportante {
+	background: #E8F2E4;
+	}
+
+	#Cómoparticipar {
+	background: #FEF3E6;
+	}
+
+form {
+	background: #f4f4f4;
+	padding: 20px;
+	border-radius: 10 px;
+		box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+	section img {
+		display: block;
+		margin: 20px auto;
+		max-width: 100%;
+		border-radius: 10 px;
+		box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+	}
+
+
+	footer {
+	background: #00609B;
+	color: #F6F6F6;
+	text-align: center;
+	}
+
+
+	.texto-centrado {
+	text-align: center;
+	max-width: 900px;
+	marginalización: 0 auto;
+	}
+
+
+</style>
+</head>
+
+
+<body>
+<header>
+<h1>26 de Septiembre: Día Europeo de las Lenguas</h1>
+
+
+</header>
+
+<section id="celebración" class= "d-flex justify-content-center w-100">
+<article class= "w-75">
+
+
+<h2>Celebración</h2>
+<p>El Día Europeo de las Lenguas, instaurado en 2001 por el consejo de Europa, se celebra cada 26 de septiembre con el objetivo de promover el aprendizaje de idiomas y sensibilizar sobre la riqueza cultural de nuestro continente. La fecha nos invita a reflexionar sobre la importancia de la comunicación en un mundo globalizado, donde las lenguas son puentes que acercan a las personas y enriquecen nuestras sociedades. Más allá de lo académico, aprender un idioma significa abrir una ventana hacia nuevas formas de pensar, tradiciones y maneras de vivir.</p>
+
+<img src="Imagen.jpg" class="card-img-top" alt="26septiembre_Manuela_Pamies_Pastor">
+
+
+</section>
+
+
+<section id="¿Por qué es importante?"style="background-color: #E8F2E4;" class= "d-flex justify-content-center w-100">
+<article class= "w-75">
+<h2>¿Por qué es importante?</h2>
+<p>En Europa existen más de 200 lenguas propias, sin contar aquellas que han llegado gracias a las migraciones y la globalización. Cada lengua representa una identidad, una cultura y una forma de entender el mundo. Conocer idiomas no solo mejora las oportunidades profesionales y académicas, sino que también fortalece la empatía, el respeto y la cooperación entre personas de diferentes orígenes. La diversidad lingüística es un tesoro que debemos proteger, porque en cada palabra se esconde parte de nuestra historia común y nuestro futuro compartido.</p>
+</section>
+
+<section id="¿Cómo participar?" style="background-color: #FEF3E6;" class= "d-flex justify-content-center w-100">
+<article class= "w-75">
+
+<h2>¿Cómo participar?</h2>
+<p>La mejor manera de participar en el Día Europeo de las Lenguas es animarse a aprender, compartir y experimentar con los idiomas. Muchas escuelas, bibliotecas y asociaciones culturales organizan talleres, juegos interactivos y actividades que promueven la comunicación en diferentes lenguas. También puedes empezar por pequeños gestos: aprender saludos básicos en un idioma nuevo, practicar con amigos, ver películas en versión original o descubrir la música de otros países. Cada palabra que aprendemos nos acerca un poco más a quienes nos rodean y fortalece la unión entre culturas.</p>
+
+
+
+<form>
+
+  <fieldset>
+    
+    <div class="mb-3">
+      <label for="disabledTextInput" class="form-label">Nombre</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Introduce tu nombre">
+    </div>
+
+    <div class="mb-3">
+      <label for="disabledSelect" class="form-label">Correo electrónico</label>
+
+      <select id="disabledSelect" class="form-select">
+        <option>ejemplo@correo.com</option>
+      </select>
+    </div>
+
+<div class="mb-3">
+ <label for="exampleFormControlTextarea1"  class="form-label">Escribe aquí</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+   
+   
+<button type="submit" class="btn btn-primary" >Enviar</button>
+</fieldset>
+
+</form>
+
+
+</section>
+
+<footer>
+<p>&copy; 2025 Día Europeo de las Lenguas </p>
+</footer>
+</body>
+</html>
